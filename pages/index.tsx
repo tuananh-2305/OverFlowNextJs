@@ -72,7 +72,7 @@ const Home: NextPageWithLayout = () => {
     const handleJob = setInterval(() => {
       setIndex(index + 1);
       if (index >= 4) setIndex(0);
-    }, 3000);
+    }, 2000);
 
     return () => {
       clearInterval(handleJob);
